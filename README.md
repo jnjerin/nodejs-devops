@@ -1,6 +1,10 @@
 ## demo app - developing with Docker
 
 In this project we will deploy a 3-tier application to an EC2 server using a CICD pipeline set up on Jenkins. 
+On the EC2 instance we have the following installed 
+- Jenkins
+- Docker
+- npm (to build the code in Jenkins)
 
 This demo app shows a simple user profile app set up using 
 - index.html with pure js and css styles
